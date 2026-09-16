@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import MainScreen from './screen/MainScreen';
 import Listscreen from './screen/Listscreen';
+import Challscreen from './screen/Challscreen';
 
 
 
@@ -12,7 +13,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* {<Mainscreen/>} */}
-      <Listscreen/>
+      <Challscreen/>
     </View>
   );
 }
