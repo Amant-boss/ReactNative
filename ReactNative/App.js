@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MainScreen from './screen/MainScreen';
 import Listscreen from './screen/Listscreen';
 import Challscreen from './screen/Challscreen';
+import Examplescreen from './screen/Examplescreen';
 
 
 
@@ -12,8 +13,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* {<Mainscreen/>} */}
-      <Challscreen/>
+      <Examplescreen/>
     </View>
   );
 }
