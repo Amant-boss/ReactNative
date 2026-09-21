@@ -154,20 +154,15 @@ const Examplescreen = () => {
 const styles = StyleSheet.create({
     main: {
         justifyContent: "center",
-
+        flex: 1,
+        flexDirection: "row",
     },
     container: {
         borderWidth: 5,
         borderColor: "grey",
         borderRadius: 30,
-        margin: 5,
+        margin: 10,
         padding: 15,
-        flex: 1,
-        flexWrap: 'wrap',
-    },
-    maintext: {
-        fontSize: 35,
-        fontWeight: "bold",
     },
     info: {
         fontSize: 20,
@@ -181,14 +176,8 @@ const styles = StyleSheet.create({
         borderWidth: 5,
         borderColor: "grey",
         borderRadius: 30,
-        margin: 5,
+        margin: 10,
         padding: 15,
-        flex: 1,
-        flexWrap: 'wrap',
-    },
-    maintext2: {
-        fontSize: 35,
-        fontWeight: "bold",
     },
     info2: {
         fontSize: 20,
@@ -202,14 +191,8 @@ const styles = StyleSheet.create({
         borderWidth: 5,
         borderColor: "grey",
         borderRadius: 30,
-        margin: 5,
+        margin: 10,
         padding: 15,
-        flex: 1,
-        flexWrap: 'wrap',
-    },
-    maintext3: {
-        fontSize: 35,
-        fontWeight: "bold",
     },
     info3: {
         fontSize: 20,
