@@ -1,13 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 
-const information = { id: "1", name: "Amant", surname: "Zabeli", age: "14", birthday: "06/07/2012", hobby: "Playing football", school: "British School Of Kosova" };
-const information1 = { id: "2", name: "Deon", surname: "Beka", age: "15", birthday: "02/12/2010", hobby: "Playing Basketball", school: "British Gymnasium Of Technology" };
-const information2 = { id: "3", name: "Gerti", surname: "Calaj", age: "13", birthday: "28/06/2013", hobby: "Programming", school: "Ismail Qemail" };
+const information = { name: "Amant", surname: "Zabeli", age: "14", birthday: "06/07/2012", hobby: "Playing football", school: "British School Of Kosova" };
+const information1 = { name: "Deon", surname: "Beka", age: "15", birthday: "02/12/2010", hobby: "Playing Basketball", school: "British Gymnasium Of Technology" };
+const information2 = { name: "Gerti", surname: "Calaj", age: "13", birthday: "28/06/2013", hobby: "Programming", school: "Ismail Qemail" };
 
 const Examplescreen = () => {
     return (  
-        <>
         <View styles ={styles.main}>
             <View style ={styles.container}>
                 <FlatList style = {styles.flatlist}
@@ -147,15 +146,12 @@ const Examplescreen = () => {
                 />
             </View>
        </View> 
-       </>
     );
 };
 
 const styles = StyleSheet.create({
     main: {
         justifyContent: "center",
-        flex: 1,
-        flexDirection: "row",
     },
     container: {
         borderWidth: 5,
