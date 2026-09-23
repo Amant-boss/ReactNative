@@ -6,6 +6,8 @@ import MainScreen from './screen/MainScreen';
 import Listscreen from './screen/Listscreen';
 import Challscreen from './screen/Challscreen';
 import Examplescreen from './screen/Examplescreen';
+import Buttonscreen from './screen/Buttonscreen';
+
 
 
 
@@ -13,7 +15,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <View style={styles.container}>
-      <Examplescreen/>
+      <Buttonscreen/>
     </View>
   )
 }
