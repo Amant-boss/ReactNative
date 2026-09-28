@@ -7,6 +7,7 @@ import Listscreen from './screen/Listscreen';
 import Challscreen from './screen/Challscreen';
 import Examplescreen from './screen/Examplescreen';
 import Buttonscreen from './screen/Buttonscreen';
+import Studentscreen from './screen/Studentscreen';
 
 
 
@@ -15,7 +16,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <View style={styles.container}>
-      <Buttonscreen/>
+      <Studentscreen/>
     </View>
   )
 }

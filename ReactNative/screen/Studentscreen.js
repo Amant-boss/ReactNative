@@ -1,16 +1,46 @@
 import React from "react";
-import { View, Text, StyleSheet, FlatList, Image } from 'react-native';
-import StudentDetails from 
+import { View, Text, StyleSheet } from "react-native";
+import StudentDetails from "./StudentDetails";
 
+const Studentscreen = () => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Students</Text>
 
-const Student = () => {
-    <View>
-    <Text style ={styles.text}>Students</Text>
-        <StudentDetails name={"Gerti"} Image={""} description={""}></StudentDetails>
-        <StudentDetails name={"Deon"} Image={""} description={""}></StudentDetails>
-        <StudentDetails name={"Amant"} Image={""} description={""}></StudentDetails>
+      <StudentDetails
+        name="Gerti"
+        image={require("../images/gerti.png")}
+        description=""
+      />
+
+      <StudentDetails
+        name="Deon"
+        image={require("../images/deon.png")}
+        description=""
+      />
+
+      <StudentDetails
+        name="Amant"
+        image={require("../images/amant.png")}
+        description=""
+      />
     </View>
-}
+  );
+};
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 20,
+  },
+
+  text: {
+    color: "red",
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 20,
+    marginLeft: 20,
+  },
+});
 
 export default Studentscreen;
