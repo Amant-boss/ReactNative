@@ -15,7 +15,7 @@ const Studentscreen = () => {
 
       <StudentDetails
         name="Deon"
-        image={require("../images/deon.png")}
+        image={require("../images/deoni.png")}
         description=""
       />
 
@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 20,
+    width: 900
   },
 
   text: {
